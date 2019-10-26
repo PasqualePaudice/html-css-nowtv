@@ -225,6 +225,7 @@ section.container h1 {
     padding: 10px 60px;
     border:1px solid white;
     border-radius: 100px;
+    font-size: 25px;
 }
 
 /*fine calcio*/
@@ -246,6 +247,7 @@ section.container h1 {
 }
 
 #telecomando div.container img {
+    width: 80%;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -267,6 +269,10 @@ section.container h1 {
 @media screen and (max-width: 1300px) {
     #jumbo {
         height: 550px;
+    }
+    .scopri {
+        font-size: 25px;
+        padding:10px 60px;
     }
 }
 
@@ -292,11 +298,15 @@ section.container h1 {
     }
     #movies div:nth-child(1n+4){
         visibility: hidden;
-        position: absolute;
+        position: fixed;
     }
 
     #movies div:nth-last-child(1n+2) {
         width: calc(100% / 3);
+    }
+    .scopri {
+        font-size: 25px;
+        padding:10px 60px;
     }
 }
 
@@ -329,11 +339,17 @@ section.container h1 {
 
     #movies div:nth-child(1n+3){
         visibility: hidden;
-        position: absolute;
+        position: fixed;
     }
 
     #movies div:nth-last-child(1n+3) {
         width: 50%;
+    }
+
+    .scopri {
+            font-size: 20px;
+            padding:8px 40px;
+
     }
 }
 
@@ -381,10 +397,15 @@ section.container h1 {
 
     #movies div:nth-child(1n+2){
         visibility: hidden;
-        position: absolute;
+        position: fixed;
     }
 
     #movies div:first-child {
         width: 100%;
+    }
+
+    .scopri {
+        font-size: 15px;
+        padding:5px 30px;
     }
 }

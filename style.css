@@ -255,6 +255,61 @@ section.container h1 {
 
 /*fine telecomando*/
 
+/*footer*/
+footer{
+    width:100%;
+    background-color: #1C1C21;
+    padding: 34px 15px;
+}
+
+footer .container{
+    width:80%;
+}
+
+.sezione_footer {
+    position: relative;
+    min-height: 1px;
+    margin-left: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 2;
+}
+
+.sezione_footer li{
+    height: 30px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.sezione_footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.icons {
+    padding-top: 5px;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 25px;
+}
+
+.scritta_footer {
+    position: relative;
+    min-height: 1px;
+    padding-top: 40px;
+    padding-right: 15px;
+    text-align: left;
+    line-height: 1.25;
+    font-size: 10px;
+    color: #8AACB1;
+}
+.scritta_footer a {
+    color: white;
+    text-decoration: underline;
+}
+}
+/*fine footer*/
+
 
 @media screen and (max-width: 1440px) {
     #jumbo {
@@ -308,7 +363,43 @@ section.container h1 {
         font-size: 25px;
         padding:10px 60px;
     }
+    footer .container div.col-sm-12.col-md-3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sezione_footer {
+        text-align: center;
+        width: 50%;
+        display: inline-block;
+        padding-top: 40px;
+        margin:0;
+        padding-bottom: 40px;
+
+    }
+
+    .sezione_footer li{
+        border-bottom: 1px solid rgba(255,255,255,0.25);
+        font-size: 15px;
+
+    }
+
+    .sezione_footer li:first-child{
+        border-top: 1px solid rgba(255,255,255,0.25);
+        font-size: 10px;
+
+    }
+
+ .icons {
+     text-align: center;
+     /*position: absolute;*/
+ }
+ .scritta_footer {
+     text-align: center;
+ }
 }
+
+
 
 @media screen and (max-width: 1023px) {
 
@@ -351,6 +442,41 @@ section.container h1 {
             padding:8px 40px;
 
     }
+
+    footer .container div.col-sm-12.col-md-3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sezione_footer {
+        text-align: center;
+        width: 50%;
+        display: inline-block;
+        padding-top: 40px;
+        margin:0;
+        padding-bottom: 40px;
+
+    }
+
+    .sezione_footer li{
+        border-bottom: 1px solid rgba(255,255,255,0.25);
+        font-size: 15px;
+
+    }
+
+    .sezione_footer li:first-child{
+        border-top: 1px solid rgba(255,255,255,0.25);
+        font-size: 10px;
+
+    }
+
+ .icons {
+     text-align: center;
+     /*position: absolute;*/
+ }
+ .scritta_footer {
+     text-align: center;
+ }
 }
 
 @media screen and (max-width: 767px) {
@@ -408,4 +534,44 @@ section.container h1 {
         font-size: 15px;
         padding:5px 30px;
     }
+
+    footer .container div.col-sm-12.col-md-3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sezione_footer {
+        text-align: center;
+        width: 100%;
+        margin:0;
+        padding: 0;
+
+    }
+
+    .sezione_footer li{
+        border-bottom: 1px solid rgba(255,255,255,0.25);
+        font-size: 15px;
+
+    }
+
+.sezione_footer li:first-child{
+        border-top: 1px solid rgba(255,255,255,0.25);
+        font-size: 10px;
+
+    }
+
+ .sezione_footer:nth-child(2n+3){
+     margin-bottom: 40px;
+}
+
+.icons {
+    font-size: 15px;
+     text-align: center;
+ }
+
+ .scritta_footer {
+     text-align: center;
+ }
+
+
 }

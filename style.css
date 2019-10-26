@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -218,7 +219,7 @@ section.container h1 {
 
 }
 
-#scopri {
+.scopri {
     text-decoration: none;
     color: white;
     padding: 10px 60px;
@@ -227,6 +228,30 @@ section.container h1 {
 }
 
 /*fine calcio*/
+
+/*telecomando*/
+
+#telecomando {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+
+
+}
+
+#telecomando div.container {
+    height: 100%;
+    padding-bottom: 60px;
+}
+
+#telecomando div.container img {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*fine telecomando*/
 
 
 @media screen and (max-width: 1440px) {

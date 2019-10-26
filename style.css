@@ -191,6 +191,43 @@ section.container h1 {
 
 /*fine info*/
 
+/*calcio*/
+
+#calcio{
+    width: 100%;
+    background-color: #1C5EEA;
+    /*height: 465px;*/
+}
+
+#calcio div.container {
+    text-align: center;
+    height: 100%;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#calcio div.container h1 {
+    text-transform: uppercase;
+
+}
+
+#calcio div.container img {
+    text-align: center;
+    width:80%;
+
+}
+
+#scopri {
+    text-decoration: none;
+    color: white;
+    padding: 10px 60px;
+    border:1px solid white;
+    border-radius: 100px;
+}
+
+/*fine calcio*/
+
 
 @media screen and (max-width: 1440px) {
     #jumbo {
